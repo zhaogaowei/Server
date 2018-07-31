@@ -61,6 +61,31 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
   <ItemGroup>
+    <ClCompile Include="..\..\serverLet\server\Buffer.cpp" />
+    <ClCompile Include="..\..\serverLet\server\Epoll.cpp" />
+    <ClCompile Include="..\..\serverLet\server\EventLoop.cpp" />
+    <ClCompile Include="..\..\serverLet\server\EventLoopThread.cpp" />
+    <ClCompile Include="..\..\serverLet\server\EventLoopThreadPool.cpp" />
+    <ClCompile Include="..\..\serverLet\server\Handler.cpp" />
+    <ClCompile Include="..\..\serverLet\server\Parser.cpp" />
+    <ClCompile Include="..\..\serverLet\server\Servant.cpp" />
+    <ClCompile Include="..\..\serverLet\server\Socket.cpp" />
+    <ClCompile Include="..\..\serverLet\server\Thread.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\serverLet\server\Buffer.h" />
+    <ClInclude Include="..\..\serverLet\server\CurrentThread.h" />
+    <ClInclude Include="..\..\serverLet\server\Epoll.h" />
+    <ClInclude Include="..\..\serverLet\server\EventLoop.h" />
+    <ClInclude Include="..\..\serverLet\server\EventLoopThread.h" />
+    <ClInclude Include="..\..\serverLet\server\EventLoopThreadPool.h" />
+    <ClInclude Include="..\..\serverLet\server\Handler.h" />
+    <ClInclude Include="..\..\serverLet\server\Parser.h" />
+    <ClInclude Include="..\..\serverLet\server\Socket.h" />
+    <ClInclude Include="..\..\serverLet\server\Thread.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\serverLet\server\Makefile" />
   </ItemGroup>
   <ItemDefinitionGroup />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
